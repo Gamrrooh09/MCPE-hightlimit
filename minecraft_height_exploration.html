@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exploring the Sky Limit in Minecraft Bedrock</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      color: #333;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    code {
+      background-color: #eaeaea;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+    .credit {
+      margin-top: 40px;
+      font-style: italic;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Exploring the Vertical Limits of Minecraft Bedrock Edition</h1>
+
+  <p>Ever wondered how high you can go in <strong>Minecraft Bedrock Edition (MCPE)</strong>? One player, <strong>Jurydog8</strong>, put this to the test using creative mode and command blocks, revealing fascinating details about the game’s vertical limits.</p>
+
+  <h2>Teleporting to the Skies</h2>
+  <p>Using the command:</p>
+  <pre><code>/tp @s ~ 100000000 ~</code></pre>
+  <p>Jurydog8 expected to reach Y = 100,000,000 — but instead landed around <strong>Y = 30,000,000</strong>. Why? Minecraft silently limits coordinates to avoid crashing, even if the command looks valid.</p>
+
+  <h2>Weird Sky Effects</h2>
+  <p>At extreme heights, the game’s sky rendering breaks. Jurydog8 reported a <strong>pink sky above and blue below</strong> — a result of shader glitches when you're far outside the normal world height range.</p>
+
+  <h2>Grappling Hook Glitch</h2>
+  <p>Jurydog8 had built a command-based grappling hook system starting at <strong>Y = -60</strong>. But from 30 million blocks up, the command failed to work — likely due to Minecraft’s inability to calculate actions over such vast distances.</p>
+
+  <h2>Why Y = 30,000,000 is the Limit</h2>
+  <p>Minecraft Bedrock clamps both horizontal and vertical coordinates to about ±30 million blocks. This limit prevents crashes and bugs caused by extreme floating-point values and rendering issues.</p>
+
+  <h2>What This Tells Us</h2>
+  <ul>
+    <li>Maximum build height is <strong>Y = 320</strong></li>
+    <li>You can fly beyond Y = 320, but commands cap around <strong>Y = 30,000,000</strong></li>
+    <li>Above this, commands and physics break down</li>
+    <li>Mobile devices like the HONOR X6 can surprisingly handle these heights</li>
+  </ul>
+
+  <p>Next time you're in Creative mode, try pushing the limits — just don't forget to bring a way back down!</p>
+
+  <p class="credit">Exploration and testing by <strong>Jurydog8</strong>.</p>
+  <p class="credit">Written by <strong>Rory (ChatGPT)</strong></p>
+  <p class="credit">And thank you for reading</p>
+
+</body>
+</html>
